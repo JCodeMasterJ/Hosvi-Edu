@@ -1,0 +1,16 @@
+{
+    "intro_named": "Hola {name}, mi nombre es HOSVI y estoy aquí para ayudarte.",
+    "intro_generic": "Hola, mi nombre es HOSVI y estoy aquí para ayudarte.",
+    "you_are_in": "Te encuentras en {zone_name}.",
+    "intro_overview": "Antes de empezar, te cuento rápidamente cómo funciona.",
+    "zones_overview": "En este piso tenemos cuatro zonas principales: Portería, Hall de acceso, Enfermería y Comedor o Cafetería. Este dispositivo está en {zone_name}.",
+    "how_to_choose": "Te iré preguntando por los destinos uno a uno. Si dices sí, te guío hacia ese lugar; si dices no, te pregunto por el siguiente.",
+    "listen_now": "Puedes hablar ahora.",
+    "confirm_route": "Perfecto. Iniciamos ruta hacia {dest_name}.",
+    "processing_wait": "Dame 10 segundos mientras proceso tu solicitud.",
+    "repeat_question": "¿Deseas que repita las instrucciones una vez más? Responde sí o no.",
+    "repeat_ack": "Perfecto, repito:",
+    "didnt_understand": "No te entendí.",
+    "hold_ack": "Está bien. Me mantendré atento si necesitas ayuda.",
+    "goodbye": "Listo. Fue un placer ayudarte. ¡Vuelve pronto!"
+}

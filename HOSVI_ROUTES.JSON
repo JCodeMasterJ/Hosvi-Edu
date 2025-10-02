@@ -1,0 +1,43 @@
+{
+  "zone_name": "Zona 2 - Hall de acceso",
+  "options": [
+    {
+      "question": "¿Deseas guía hacia la cafetería?",
+      "dest_id": "Z4_COMEDOR",
+      "dest_name": "la cafetería",
+      "steps": [
+        "Gira a la derecha.",
+        "Avanza recto quince pasos.",
+        "Gira nuevamente hacia la derecha.",
+        "Avanza veinticinco pasos.",
+        "Estarás en la cafetería, donde escucharás mayor cantidad de murmullos."
+      ]
+    },
+    {
+      "question": "¿Deseas guía hacia la enfermería?",
+      "dest_id": "Z3_ENFERMERIA",
+      "dest_name": "la enfermería",
+      "steps": [
+        "Gira a la izquierda.",
+        "Baja cinco escalones.",
+        "Avanza cuatro pasos.",
+        "Baja cinco escalones nuevamente.",
+        "Avanza recto ocho pasos.",
+        "A tu mano derecha encontrarás la enfermería."
+      ]
+    },
+    {
+      "question": "¿Deseas guía hacia la portería principal?",
+      "dest_id": "Z5_PORTERIA",
+      "dest_name": "la portería principal",
+      "steps": [
+        "Gira a la izquierda.",
+        "Baja cinco escalones.",
+        "Avanza cuatro pasos.",
+        "Baja cinco escalones nuevamente.",
+        "Avanza recto veinte pasos.",
+        "Pídele el favor al celador que te abra la puerta para salir."
+      ]
+    }
+  ]
+}
