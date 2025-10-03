@@ -34,3 +34,34 @@ source hosvi/bin/activate
 ```bash
 pip install sounddevice soundfile numpy faster-whisper pyserial
 ```
+## 🚀 Uso
+### 1. Conecta el lector RFID UHF en el puerto serial configurado (/dev/ttyUSB0 o /dev/serial0).
+### 2. Ejecuta el programa:
+```bash
+python PRUEB_RSP_RFID_FINAL.PY
+```
+### 3. Al detectar una tarjeta RFID:
+- El sistema identifica al usuario (ejemplo: Juanes).
+- Da la bienvenida personalizada.
+- Emite un beacon sonoro para orientación inicial.
+- Ofrece las rutas disponibles según la zona (cafetería, enfermería, portería).
+- Guía paso a paso con instrucciones habladas.
+
+## 🗺️ Ejemplo de interacción
+- Usuario se acerca con su tarjeta.
+- HOSVI: "Hola Juanes, mi nombre es HOSVI y estoy aquí para ayudarte. Te encuentras en la Zona 2 - Hall de acceso."
+- Se reproduce el beacon 🔊.
+- HOSVI: "¿Deseas guía hacia la cafetería? Responde sí o no."
+- Usuario: "Sí"
+- HOSVI: "Perfecto, iniciaremos la guía hacia la cafetería. Gira a la derecha, avanza recto quince pasos..."
+
+## 👥 Autores
+
+Proyecto desarrollado por:
+
+- **Juan Esteban Páez Fonseca (Juanes)**
+- **Daniela Alejandra Reyex Ballen**
+- **Yuli Andrea Alvarez Pizarro**
+- **Oscar Fernando Becerra Angarita**
+
+Universidad Santo Tomás – Bucaramanga
